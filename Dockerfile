@@ -1,4 +1,4 @@
-FROM registry.redhat.io/rhel8/httpd-24:1-209
+FROM image-registry.openshift-image-registry.svc:5000/http-example-002/httpd-ex
 
 # Add application sources
 ADD app-src/index.html /var/www/html/index.html
