@@ -16,7 +16,7 @@ class MyHandler(BaseHTTPRequestHandler):
   \____\_______/
 
 
-Estamos Quites Docker!!!!!!
+Estamos Quites Docker!!!
 ''')
 
 def run():
