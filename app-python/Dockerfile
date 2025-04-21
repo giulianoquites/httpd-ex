@@ -1,12 +1,6 @@
 # Use an official Python runtime as a parent image
 FROM python:3.8
-
+RUN mkdir /app
+ADD . /app
 WORKDIR /app
-
-COPY requirements.txt .
-
-RUN pip install -r requirements.txt
-
-COPY . .
-
-CMD [ "python", "./server.py" ] 
+CMD ["python3", "app.py"]
