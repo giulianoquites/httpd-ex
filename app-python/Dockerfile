@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM registry.access.redhat.com/ubi8/python-38:latest
+FROM python-38:latest
 
 # Set the working directory in the container
 WORKDIR /app
